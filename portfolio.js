@@ -30,7 +30,7 @@ $("#Bcontact").click(function(){
    
    
    
-   //git commit 
+   //git commit -m "added blank"
    //git push
    
    
