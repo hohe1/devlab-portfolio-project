@@ -21,13 +21,16 @@ body{
     margin-left:0.1%;
     margin-top:auto;
     font-size:50px;
+    font-family: 'Merriweather', serif;
+
     }
 #myPic{
     height:100px;
     width:100px; 
     margin:2.5%;
     border-radius:50%;
-    border:double 10px;
+    border:double 8.5px ;
+    background:linear-gradient(white, transparent,white);
     }
     /*end of div1*/
     
@@ -49,6 +52,8 @@ body{
     margin:auto;
     text-align:center;
     width:33%;
+    cursor: pointer;
+    
 }
     /*end of div2*/
 
@@ -65,18 +70,15 @@ body{
     border:1px solid black;
     width:50%;
     padding:2%;
-    
-    
+    font-family: 'Merriweather', serif;
+
 }
-
-
-
-
 
 #contact1{
     text-align: center;
+    font-size:30px;
+    text-shadow:2px 2px grey;
 }
-
 
 /*reinhardt*/
 .reinhart_pic{
@@ -85,7 +87,9 @@ body{
     border-radius: 25%;
 }
 
-
+.div3div{
+    display:none;
+}
 
 
 /*end of div3*/

@@ -1,14 +1,18 @@
 /*global $*/
 $( document ).ready(function() {
     
-
-var aboutMe=$("<div id='about'>");
-var portfolio=$("<div id='about'>");
-var contact=$("<div id='about'>");
+//jq's personal space    
+//no typing before this point---------------------------------------------    
     
+    
+    
+    
+
+
 //buttons
 $("#Babout").click(function(){
     $("#me").toggle();
+    
 });
 
 $("#Bpfo").click(function(){
@@ -18,7 +22,6 @@ $("#Bpfo").click(function(){
 $("#Bcontact").click(function(){
     $("#contact").toggle();
 });
-    
 
 
    
