@@ -1,0 +1,96 @@
+body{
+    background-color:#bcff21;
+    animation:colorchange infinite;
+    animation-duration: 20s ;
+    animation-direction: alternate ;
+    }
+    
+@keyframes colorchange{
+    from{background-color:#bcff21;}
+    50%{background-color:#bcfffc;}
+    to{background-color:#d3afff;}
+    }
+    
+    /*below code is for div1*/
+#div1{
+    display:flex;
+    /*flex-wrap:wrap;*/
+    justify-content:center;
+    }
+#name{
+    margin-left:0.1%;
+    margin-top:auto;
+    font-size:50px;
+    }
+#myPic{
+    height:100px;
+    width:100px; 
+    margin:2.5%;
+    border-radius:50%;
+    border:solid 5px;
+    }
+    /*end of div1*/
+    
+    
+    
+    /*div2 begins here*/
+#div2{
+    width:40%;
+    margin:auto;
+    border:solid 1px black;
+    /*border-radius:100px;*/
+    /*width:90%;
+    height:25px;*/
+    display:flex;
+    }
+    
+.div2div{
+    border:black 0px solid;
+    margin:auto;
+    text-align:center;
+    width:33%;
+}
+    /*end of div2*/
+
+/*div3 begins here*/
+#div3{
+    border:0px solid transparent;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.div3div{
+    border:1px solid black;
+    width:50%;
+    padding:2%;
+    
+    
+}
+
+
+
+
+
+/*end of div3*/
+
+
+
+
+/*div4 begins here*/
+#div4{
+    border:1px solid black;
+    height:40%;
+    width:40%;
+    text-align:center;
+    margin:auto;
+    
+}
+/*end of div4*/
+
+/*reinhardt*/
+.reinhart_pic{
+    zoom:8%;
+    
+}
