@@ -111,7 +111,36 @@ body{
 
 /*div2div* begins here maybe again dob't know lol*/
 .div2div{
-    background:white;
+    /*background:white;*/
     
 }
 
+/*div2div ends*/
+
+/*divd3div*/
+.div3div{
+    /*background:white;*/
+    /*opacity: 0.1;*/
+    
+    /*idea    !!!!!!!!!!! \v/
+                           v
+    make a div in div3div and set 
+    its z index under. 
+    then set opacity and bg color*/
+}
+
+#scriptEd:hover{
+    /*background-color: transparent;*/
+    animation-name: notRedected;
+}
+
+#scriptEd{
+    background-color: black;
+    
+}
+
+@keyframes notRedected{
+    from{background-color: black}
+    to{background-color: transparent}
+    
+}
